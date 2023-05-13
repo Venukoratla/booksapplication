@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
+  background-image: url("https://img.freepik.com/premium-photo/educational-concept-books-blue_387680-275.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
   display: flex;
+  margin-bottom: 0px;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: bold;
   color: white;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar {
+  height: 30px;
+  border-radius: 5px;
+  border-width: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#page-numbers {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+#page-numbers li {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.user-con {
+  border: 2px solid white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.input-field {
+  margin-bottom: 5px;
+  border-width: 0px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.button {
+  background-color: #05a0fa;
+  color: aliceblue;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
 }
